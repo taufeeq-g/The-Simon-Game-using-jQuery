@@ -64,7 +64,7 @@ function checkAnswer(currentLevel) {
         
         // Wrong answer flash animation
         $("body").addClass("game-over");
-        $("h1").text("Game Over, Press Any Key to Restart");
+        $("h1").text("Game Over, Press start to play again !");
         
         setTimeout(function () {
             $("body").removeClass("game-over");
