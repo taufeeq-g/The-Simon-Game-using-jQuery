@@ -1,0 +1,100 @@
+body {
+  background-color: #141e46;
+}
+
+/* Level Title */
+h1 {
+  color: #fff5e0;
+  text-align: center;
+  margin: 50px;
+  margin-top: 70px;
+  font-size: 45px;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* buttons css */
+.btn, .start {
+  height: 180px;
+  width: 180px;
+  margin: 25px;
+  border-radius: 25px;
+  border: 10px solid black;
+}
+
+/* Button colors */
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+#red {
+  background-color: red;
+}
+
+/* Flex Box */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start{
+    height: 60px;
+}
+
+/* Key press animation (toggled via js) */
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Game over animation */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Responsive code */
+/* Devices <= 425px */
+@media (max-width: 425px) {
+  h1 {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .container {
+    width: 100%;
+  }
+  .btn {
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+  }
+}
+
+/* Devices <= 768px */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .container {
+    width: 100%;
+  }
+  .btn {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simon Game</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Level title -->
+    <h1>Press start to play.</h1>
+    <!-- Create a container to contain all 4 buttons -->
+    <div class="container">
+
+        <!-- has 2 rows -->
+        <div class="row">
+            <!-- each row has 2 buttons -->
+            <button id="green" class="btn"></button>
+            <button id="red" class="btn"></button>
+        </div>
+        <div class="row">
+            <!-- each row has 2 buttons -->
+            <button id="yellow" class="btn"></button>
+            <button id="blue" class="btn"></button>
+        </div>
+
+        <button class="start restart">Start</button>
+    </div>
+    
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- JS link -->
+    <script src="index.js"></script>
+</body>
+
+</html>
